@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="header-logo">
+        <a href="./index.html">
+          <img src="./img/logo.png" alt="" />
+        </a>
+      </nav>
+      <nav>
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT US</a></li>
+          <li><a href="">Create your plan</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="section-one"></section>
+      <section class="section-two">
+        <h2 class="title">Our collection</h2>
+
+        <div class="section-two-card">
+          <img data-aos-duration="3000" data-aos="flip-left" src="./img/kopi4.png" alt="" />
+          <div>
+            <h3>Danche</h3>
+            <p>
+              Ethiopian hand-harvested blend <br />
+              densely packed with vibrant fruit notes.
+            </p>
+          </div>
+        </div>
+
+        <div class="section-two-card">
+          <div>
+            <h3>Danche</h3>
+            <p>
+              Ethiopian hand-harvested blend densely packed with vibrant fruit
+              notes.
+            </p>
+          </div>
+          <img src="./img/kopi4.png" alt="" />
+        </div>
+
+        <div class="section-two-card">
+          <img data-aos="fade-right" src="./img/kopi4.png" alt="" />
+          <div data-aos="fade-left" >
+            <h3>Danche</h3>
+            <p>
+              Ethiopian hand-harvested blend <br />
+              densely packed with vibrant fruit notes.
+            </p>
+          </div>
+        </div>
+
+        <div data-aos-duration="3000" data-aos="zoom-in-left" class="section-two-card">
+          <div>
+            <h3>Danche</h3>
+            <p>
+              Ethiopian hand-harvested blend densely packed with vibrant fruit
+              notes.
+            </p>
+          </div>
+          <img src="./img/kopi4.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
